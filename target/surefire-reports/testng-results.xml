@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="57" started-at="2014-08-05T17:22:47Z" finished-at="2014-08-05T17:22:47Z">
+    <groups>
+    </groups>
+    <test name="Test case 2 " duration-ms="57" started-at="2014-08-05T17:22:47Z" finished-at="2014-08-05T17:22:47Z">
+      <class name="persistent.MavenFirstPrj.SecondTestNGClass">
+        <test-method status="PASS" signature="f()[pri:0, instance:persistent.MavenFirstPrj.SecondTestNGClass@4ef523]" name="f" duration-ms="0" started-at="2014-08-05T22:52:47Z" finished-at="2014-08-05T22:52:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="second(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:persistent.MavenFirstPrj.SecondTestNGClass@4ef523]" name="second" duration-ms="1" started-at="2014-08-05T22:52:47Z" data-provider="Data" finished-at="2014-08-05T22:52:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Titanic]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[De]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Kate]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- second -->
+        <test-method status="PASS" signature="second(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:persistent.MavenFirstPrj.SecondTestNGClass@4ef523]" name="second" duration-ms="0" started-at="2014-08-05T22:52:47Z" data-provider="Data" finished-at="2014-08-05T22:52:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Top]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[De1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Kate1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- second -->
+      </class> <!-- persistent.MavenFirstPrj.SecondTestNGClass -->
+      <class name="persistent.MavenFirstPrj.NewTest">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:persistent.MavenFirstPrj.NewTest@ebdfff]" name="beforeSuite" is-config="true" duration-ms="13" started-at="2014-08-05T22:52:47Z" finished-at="2014-08-05T22:52:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:persistent.MavenFirstPrj.NewTest@ebdfff]" name="beforeTest" is-config="true" duration-ms="0" started-at="2014-08-05T22:52:47Z" finished-at="2014-08-05T22:52:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:persistent.MavenFirstPrj.NewTest@ebdfff]" name="beforeClass" is-config="true" duration-ms="1" started-at="2014-08-05T22:52:47Z" finished-at="2014-08-05T22:52:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:persistent.MavenFirstPrj.NewTest@ebdfff]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2014-08-05T22:52:47Z" finished-at="2014-08-05T22:52:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="f()[pri:0, instance:persistent.MavenFirstPrj.NewTest@ebdfff]" name="f" duration-ms="2" started-at="2014-08-05T22:52:47Z" finished-at="2014-08-05T22:52:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:persistent.MavenFirstPrj.NewTest@ebdfff]" name="afterMethod" is-config="true" duration-ms="1" started-at="2014-08-05T22:52:47Z" finished-at="2014-08-05T22:52:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:persistent.MavenFirstPrj.NewTest@ebdfff]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2014-08-05T22:52:47Z" finished-at="2014-08-05T22:52:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="secondMethod()[pri:0, instance:persistent.MavenFirstPrj.NewTest@ebdfff]" name="secondMethod" duration-ms="1" started-at="2014-08-05T22:52:47Z" depends-on-methods="persistent.MavenFirstPrj.NewTest.f" finished-at="2014-08-05T22:52:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- secondMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:persistent.MavenFirstPrj.NewTest@ebdfff]" name="afterClass" is-config="true" duration-ms="1" started-at="2014-08-05T22:52:47Z" finished-at="2014-08-05T22:52:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:persistent.MavenFirstPrj.NewTest@ebdfff]" name="afterMethod" is-config="true" duration-ms="0" started-at="2014-08-05T22:52:47Z" finished-at="2014-08-05T22:52:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:persistent.MavenFirstPrj.NewTest@ebdfff]" name="afterTest" is-config="true" duration-ms="1" started-at="2014-08-05T22:52:47Z" finished-at="2014-08-05T22:52:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:persistent.MavenFirstPrj.NewTest@ebdfff]" name="afterSuite" is-config="true" duration-ms="1" started-at="2014-08-05T22:52:48Z" finished-at="2014-08-05T22:52:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- persistent.MavenFirstPrj.NewTest -->
+    </test> <!-- Test case 2  -->
+  </suite> <!-- Suite -->
+</testng-results>

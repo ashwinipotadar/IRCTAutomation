@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+
+    <test name="Test case 2 ">
+    <classes>
+     <class name="persistent.MavenFirstPrj.NewTest"/>
+      <class name="persistent.MavenFirstPrj.SecondTestNGClass"/>
+      <method>
+
+      </method>
+    </classes>
+  </test> <!-- Test -->
+   
+  </suite> <!-- Suite -->
