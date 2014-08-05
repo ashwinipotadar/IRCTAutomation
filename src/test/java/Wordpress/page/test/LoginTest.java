@@ -44,9 +44,9 @@ public class LoginTest {
 		  lnkLogin.click();
 		  LP= PageFactory.initElements(driver, LoginPage.class);
 		  DP=LP.login_sucessful("ashpotadar@gmail.com", "sanash1!");
-		  /*MP=DP.NavigateToMysite();
+		  MP=DP.NavigateToMysite();
 		  PostPage=MP.clickOnPostLink();
-		  addPost=PostPage.clickOnAddPostLink();*/
+		  addPost=PostPage.clickOnAddPostLink();
 	}
   @Test(dataProvider="AddPostdata")
   public void testAddPost(String strTitle, String strDescriptin) {

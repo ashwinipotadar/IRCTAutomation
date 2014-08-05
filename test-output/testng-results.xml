@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="6" total="6" passed="0">
+<testng-results skipped="0" failed="0" total="6" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="87180" started-at="2014-08-05T21:13:08Z" finished-at="2014-08-05T21:14:35Z">
+  <suite name="Default suite" duration-ms="189918" started-at="2014-08-05T22:05:59Z" finished-at="2014-08-05T22:09:09Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="87180" started-at="2014-08-05T21:13:08Z" finished-at="2014-08-05T21:14:35Z">
+    <test name="Default test" duration-ms="189918" started-at="2014-08-05T22:05:59Z" finished-at="2014-08-05T22:09:09Z">
       <class name="Wordpress.page.test.LoginTest">
-        <test-method status="PASS" signature="loginnavigatetoAddPost()[pri:0, instance:Wordpress.page.test.LoginTest@26ae11f6]" name="loginnavigatetoAddPost" is-config="true" duration-ms="85953" started-at="2014-08-06T02:43:08Z" finished-at="2014-08-06T02:44:34Z">
+        <test-method status="PASS" signature="loginnavigatetoAddPost()[pri:0, instance:Wordpress.page.test.LoginTest@4f85aa63]" name="loginnavigatetoAddPost" is-config="true" duration-ms="50121" started-at="2014-08-06T03:35:59Z" finished-at="2014-08-06T03:36:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginnavigatetoAddPost -->
-        <test-method status="FAIL" signature="testAddPost(java.lang.String, java.lang.String)[pri:0, instance:Wordpress.page.test.LoginTest@26ae11f6]" name="testAddPost" duration-ms="13" started-at="2014-08-06T02:44:34Z" data-provider="AddPostdata" finished-at="2014-08-06T02:44:34Z">
+        <test-method status="PASS" signature="testAddPost(java.lang.String, java.lang.String)[pri:0, instance:Wordpress.page.test.LoginTest@4f85aa63]" name="testAddPost" duration-ms="31134" started-at="2014-08-06T03:36:50Z" data-provider="AddPostdata" finished-at="2014-08-06T03:37:21Z">
           <params>
             <param index="0">
               <value>
@@ -24,41 +24,10 @@
               </value>
             </param>
           </params>
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-	at Wordpress.page.test.LoginTest.testAddPost(LoginTest.java:55)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
-	at org.testng.TestNG.run(TestNG.java:1057)
-	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testAddPost -->
-        <test-method status="FAIL" signature="testAddPost(java.lang.String, java.lang.String)[pri:0, instance:Wordpress.page.test.LoginTest@26ae11f6]" name="testAddPost" duration-ms="1" started-at="2014-08-06T02:44:34Z" data-provider="AddPostdata" finished-at="2014-08-06T02:44:34Z">
+        <test-method status="PASS" signature="testAddPost(java.lang.String, java.lang.String)[pri:0, instance:Wordpress.page.test.LoginTest@4f85aa63]" name="testAddPost" duration-ms="22457" started-at="2014-08-06T03:37:21Z" data-provider="AddPostdata" finished-at="2014-08-06T03:37:43Z">
           <params>
             <param index="0">
               <value>
@@ -71,41 +40,10 @@
               </value>
             </param>
           </params>
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-	at Wordpress.page.test.LoginTest.testAddPost(LoginTest.java:55)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
-	at org.testng.TestNG.run(TestNG.java:1057)
-	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testAddPost -->
-        <test-method status="FAIL" signature="testAddPost(java.lang.String, java.lang.String)[pri:0, instance:Wordpress.page.test.LoginTest@26ae11f6]" name="testAddPost" duration-ms="5" started-at="2014-08-06T02:44:34Z" data-provider="AddPostdata" finished-at="2014-08-06T02:44:34Z">
+        <test-method status="PASS" signature="testAddPost(java.lang.String, java.lang.String)[pri:0, instance:Wordpress.page.test.LoginTest@4f85aa63]" name="testAddPost" duration-ms="22360" started-at="2014-08-06T03:37:43Z" data-provider="AddPostdata" finished-at="2014-08-06T03:38:06Z">
           <params>
             <param index="0">
               <value>
@@ -118,41 +56,10 @@
               </value>
             </param>
           </params>
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-	at Wordpress.page.test.LoginTest.testAddPost(LoginTest.java:55)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
-	at org.testng.TestNG.run(TestNG.java:1057)
-	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testAddPost -->
-        <test-method status="FAIL" signature="testAddPost(java.lang.String, java.lang.String)[pri:0, instance:Wordpress.page.test.LoginTest@26ae11f6]" name="testAddPost" duration-ms="2" started-at="2014-08-06T02:44:34Z" data-provider="AddPostdata" finished-at="2014-08-06T02:44:34Z">
+        <test-method status="PASS" signature="testAddPost(java.lang.String, java.lang.String)[pri:0, instance:Wordpress.page.test.LoginTest@4f85aa63]" name="testAddPost" duration-ms="22183" started-at="2014-08-06T03:38:06Z" data-provider="AddPostdata" finished-at="2014-08-06T03:38:28Z">
           <params>
             <param index="0">
               <value>
@@ -165,41 +72,10 @@
               </value>
             </param>
           </params>
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-	at Wordpress.page.test.LoginTest.testAddPost(LoginTest.java:55)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
-	at org.testng.TestNG.run(TestNG.java:1057)
-	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testAddPost -->
-        <test-method status="FAIL" signature="testAddPost(java.lang.String, java.lang.String)[pri:0, instance:Wordpress.page.test.LoginTest@26ae11f6]" name="testAddPost" duration-ms="2" started-at="2014-08-06T02:44:34Z" data-provider="AddPostdata" finished-at="2014-08-06T02:44:34Z">
+        <test-method status="PASS" signature="testAddPost(java.lang.String, java.lang.String)[pri:0, instance:Wordpress.page.test.LoginTest@4f85aa63]" name="testAddPost" duration-ms="19601" started-at="2014-08-06T03:38:28Z" data-provider="AddPostdata" finished-at="2014-08-06T03:38:47Z">
           <params>
             <param index="0">
               <value>
@@ -212,41 +88,10 @@
               </value>
             </param>
           </params>
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-	at Wordpress.page.test.LoginTest.testAddPost(LoginTest.java:55)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
-	at org.testng.TestNG.run(TestNG.java:1057)
-	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testAddPost -->
-        <test-method status="FAIL" signature="testAddPost(java.lang.String, java.lang.String)[pri:0, instance:Wordpress.page.test.LoginTest@26ae11f6]" name="testAddPost" duration-ms="1" started-at="2014-08-06T02:44:34Z" data-provider="AddPostdata" finished-at="2014-08-06T02:44:34Z">
+        <test-method status="PASS" signature="testAddPost(java.lang.String, java.lang.String)[pri:0, instance:Wordpress.page.test.LoginTest@4f85aa63]" name="testAddPost" duration-ms="20855" started-at="2014-08-06T03:38:47Z" data-provider="AddPostdata" finished-at="2014-08-06T03:39:08Z">
           <params>
             <param index="0">
               <value>
@@ -259,41 +104,10 @@
               </value>
             </param>
           </params>
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-	at Wordpress.page.test.LoginTest.testAddPost(LoginTest.java:55)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
-	at org.testng.TestNG.run(TestNG.java:1057)
-	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testAddPost -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:Wordpress.page.test.LoginTest@26ae11f6]" name="teardown" is-config="true" duration-ms="715" started-at="2014-08-06T02:44:34Z" finished-at="2014-08-06T02:44:35Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Wordpress.page.test.LoginTest@4f85aa63]" name="teardown" is-config="true" duration-ms="922" started-at="2014-08-06T03:39:08Z" finished-at="2014-08-06T03:39:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
